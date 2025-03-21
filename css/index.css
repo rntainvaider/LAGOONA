@@ -1,10 +1,18 @@
 body {
+    font-family: "Muller", sans-serif;
     background: var(--gray-50);
 }
 
 .container {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--gray-800);
+    margin: 0 0 20px 40px;
 }
 
 .phone:hover {

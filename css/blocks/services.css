@@ -1,0 +1,30 @@
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.services__item {
+    height: 330px;
+    flex: 1 1 calc(50% - 24px);
+}
+
+.services__item-top {
+    height: 50%;
+}
+
+.services__item-bottom {
+    height: 50%;
+    background: var(--white);
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 45px;
+}
+
+.services__group {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

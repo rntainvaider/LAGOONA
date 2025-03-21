@@ -1,10 +1,13 @@
 /* HEADER TOP */
+.header {
+    margin-bottom: 70px;
+}
 
 .header__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 28px 0;
+    padding: 26.5px 0;
 }
 
 .header__logo {
@@ -90,7 +93,7 @@
 }
 
 .button--tour {
-    padding: 12.5px 25.5px;
+    padding: 12.5px 26px;
 }
 
 .button--callback {
