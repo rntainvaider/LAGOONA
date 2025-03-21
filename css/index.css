@@ -1,4 +1,39 @@
+body {
+    background: var(--gray-50);
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.phone:hover {
+    color: var(--yellow-dark);
+}
+
+.phone:focus {
+    outline: 1px solid var(--yellow-dark);
+    outline-offset: 5px;
+}
+
+.phone:active {
+    color: var(--brown);
+}
+
+.button {
+    border: 1px solid var(--yellow-dark);
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--yellow-dark);
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: var(--yellow-dark);
+    color: var(--white);
+}
+
+.button:active {
+    background-color: var(--brown);
+    color: var(--white);
 }

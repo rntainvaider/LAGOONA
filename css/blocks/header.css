@@ -1,0 +1,98 @@
+/* HEADER TOP */
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.header__contact {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--gray-600);
+    transition: 0.3s;
+}
+
+.header__account-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__account-icon {
+    color: var(--yellow-dark);
+    transition: 0.3s;
+}
+
+.header__account-text {
+    color: var(--yellow-dark);
+    transition: 0.3s;
+}
+
+.header__account-link:hover .header__account-icon,
+.header__account-link:hover .header__account-text {
+    color: var(--yellow-light);
+}
+
+.header__account-link:focus {
+    outline: 1px solid var(--yellow-dark);
+    outline-offset: 5px;
+}
+
+.header__account-link:active .header__account-text {
+    color: var(--yellow-dark);
+}
+
+/* HEADER BOTTOM */
+
+.header__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 45px;
+    background: var(--white);
+    border-radius: 15px;
+}
+
+.header__list {
+    display: flex;
+    gap: 45px;
+}
+
+.header__link {
+    color: var(--gray-600);
+    transition: 0.3s;
+}
+
+.header__link:hover {
+    color: var(--yellow-dark);
+}
+
+.header__link:focus {
+    outline: 1px solid var(--yellow-dark);
+    outline-offset: 2px;
+}
+
+.header__link:active {
+    color: var(--brown);
+}
+
+.header__group-button {
+    display: flex;
+    gap: 40px;
+}
+
+.button--tour {
+    padding: 12.5px 25.5px;
+}
+
+.button--callback {
+    padding: 12.5px 33.5px;
+}
